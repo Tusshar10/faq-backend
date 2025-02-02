@@ -1,0 +1,55 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django migrations
+*/migrations/
+
+# Database files
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Test / Coverage reports
+*.log
+*.pot
+*.pyc
+*.pyo
+*.coverage
+*.hypothesis/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Django secret keys and sensitive files
+*.env
+*.env.*
+secrets.json
+
+# Static and media files
+/static/
+/media/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Files created by macOS
+.AppleDouble
+.LSOverride
+Icon?
