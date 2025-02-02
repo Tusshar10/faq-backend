@@ -34,7 +34,10 @@ class FAQ(models.Model):
 
     def get_translated_content(self, lang):
         """Retrieve translations or fallback to English"""
-        question = getattr(self, f"question_{lang}", self.question) or self.question
+        question = getattr(
+            self,
+            f"question_{lang}",
+            self.question) or self.question
         answer = getattr(self, f"answer_{lang}", self.answer) or self.answer
         return {"question": question, "answer": answer}
 

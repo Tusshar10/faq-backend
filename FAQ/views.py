@@ -24,6 +24,6 @@ class FAQListView(APIView):
         cache.set(
             f"faqs_{lang}",
             serializer.data,
-            timeout=400)  # Cache 
+            timeout=400)  # Cache
 
         return Response(serializer.data)

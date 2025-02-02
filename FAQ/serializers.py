@@ -8,7 +8,7 @@ class FAQSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FAQ
-        fields = ["id", "question", "answer"]  
+        fields = ["id", "question", "answer"]
 
     def get_question(self, obj):
         """Return translated question based on request language"""

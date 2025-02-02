@@ -17,7 +17,7 @@ class FAQAdminForm(forms.ModelForm):
 
 class FAQAdmin(admin.ModelAdmin):
     form = FAQAdminForm
-    list_display = ("question",)  
+    list_display = ("question",)
     search_fields = ("question", "question_hi", "question_bn")
 
     fieldsets = (
