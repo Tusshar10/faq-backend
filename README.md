@@ -40,8 +40,8 @@ A Django-based multilingual FAQ system with REST API support, caching using Redi
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/multilingual-faq.git
-   cd multilingual-faq
+   git clone https://github.com/Tusshar10/faq-backend.git
+   cd faq_project
    ```
 
 2. **Set Up Virtual Environment**
@@ -107,13 +107,13 @@ A Django-based multilingual FAQ system with REST API support, caching using Redi
 
 #### Response Example
 
-![Api-example](assests\images\api-example.png)
+![Api-example](assests/images/api-example.png)
 
 
 ## Caching
 
 Redis is used to cache API responses for improved performance. Cached data expires after 400 seconds.
----
+
 
 ## Testing
 
@@ -124,7 +124,6 @@ pytest
 ```
 
 ---
-
 
 
 
